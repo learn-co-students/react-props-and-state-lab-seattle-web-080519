@@ -31,8 +31,8 @@ class App extends React.Component {
     // console.log("hjgjg", newType.target.value)
     this.setState({                         
       filters: {...this.state.filters, type: newType}
-      // filters: {type: newType.target.value}
-    }, ()=> console.log(this.state))
+    })
+    // , ()=> console.log(this.state))
   }
 
   onAdoptPet = petId => {
